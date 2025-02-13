@@ -1,0 +1,37 @@
+• Must import the necessary CSS files as instructed in the documentation. importing the css moudule from the provided CDN would a preffered choice.
+• Project_Data must contains the Syncfusion desired values.
+• The Syncfusion Gantt-Chart component has two major sections: 
+  a) TaskFeild properties table
+  b) the Gantt Chart
+
+***************** Gantt chart attributes *******************
+a) dataSource: {}
+b) taskFields: {}
+c) timelineSettings: {{},{},...,{}}
+d) height: ""
+
+************** Gantt chart components ***********
+a) ColumnsDirective ( encloses all the other "ColumentDirective" components)
+b) ColumnDirective (represents a column/feild in the component used for formatting columns)
+
+
+
+****** Mapping of "dataSource" (attribute) feilds using "TaskFeild" properties ********
+▬▬  
+♣ "TaskFieldsModel" is an interface imported form "@syncfusion/ej-2/gantt" moudule
+
+const taskFields: TaskFieldsModel = {
+    id: 'TaskID',
+    name: 'TaskName',
+    startDate: 'StartDate',
+    endDate: 'EndDate',
+    child: 'subtasks',      // Further partition of the task into smaller ones
+    ----------- subtasks only properties -----------
+    duration: 'Duration',
+    progress: 'Progress',
+  };
+
+
+  ## Different Timeline views
+
+

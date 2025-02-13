@@ -1,9 +1,11 @@
 
-import { GanttComponent } from '@syncfusion/ej2-react-gantt';
+import { GanttComponent, TaskFieldsModel, ColumnsDirective, ColumnDirective } from '@syncfusion/ej2-react-gantt';
 // import { useEffect, useState } from 'react';
 // import * as React from 'react';
 // import type {TaskResponse,Error} from '../types/ganttChartTypes.ts';
 
+import productData from '../data.ts'
+console.log(productData);
 
 
 
@@ -101,13 +103,15 @@ function GanttChart() {
   //   .catch(err => console.error(err));
 
 
-  const taskFields: any = {
-    id: 'Id',
+  const taskFields: TaskFieldsModel = {
+    id: 'TaskID',
     name: 'TaskName',
     startDate: 'StartDate',
+    endDate: 'EndDate',
+    child: 'subtasks',
     duration: 'Duration',
     progress: 'Progress',
-    parentID: 'ParentId'
+    dependency: 'Predeceesor',
   };
 
 
@@ -118,10 +122,21 @@ function GanttChart() {
 
   return (
     <GanttComponent
-      dataSource={GanttData}
+      dataSource={productData}
       height="450px"
       taskFields={taskFields}
-    />
+      timelineSettings={{ timelineViewMode: 'Week' }}
+
+    >
+      <ColumnsDirective>
+        <ColumnDirective field="TaskID" headerText="ID" width="50" textAlign="Right" />
+        <ColumnDirective field="TaskName" headerText="Name" width="150" />
+        <ColumnDirective field="StartDate" headerText="Start Date" width="75" format="dd/MM/yyyy" />
+        <ColumnDirective field="EndDate" headerText="End Date" width="75" format="dd/MM/yyyy" />
+        <ColumnDirective field="Duration" headerText="Duration" width="100" />
+        <ColumnDirective field="Progress" headerText="Progress" width="50" textAlign='Right' />
+      </ColumnsDirective>
+    </GanttComponent>
   );
 }
 

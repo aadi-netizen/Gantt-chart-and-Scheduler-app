@@ -1,5 +1,4 @@
-Object.defineProperty(exports, '__esModule', { value: true })
-exports.projectData = [
+const projectData = [
   {
     TaskID: 1,
     TaskName: 'Project Initiation',
@@ -60,3 +59,5 @@ exports.projectData = [
     ],
   },
 ]
+
+export default projectData
