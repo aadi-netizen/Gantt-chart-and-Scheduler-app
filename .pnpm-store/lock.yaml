@@ -17,6 +17,9 @@ importers:
       '@syncfusion/ej2-calendars':
         specifier: ^28.2.3
         version: 28.2.3
+      '@syncfusion/ej2-data':
+        specifier: 28.2.3
+        version: 28.2.3
       '@syncfusion/ej2-dropdowns':
         specifier: ^28.2.4
         version: 28.2.4

@@ -13,6 +13,7 @@
     "@syncfusion/ej2-base": "^28.2.4",
     "@syncfusion/ej2-buttons": "^28.2.3",
     "@syncfusion/ej2-calendars": "^28.2.3",
+    "@syncfusion/ej2-data": "28.2.3",
     "@syncfusion/ej2-dropdowns": "^28.2.4",
     "@syncfusion/ej2-gantt": "^28.2.4",
     "@syncfusion/ej2-grids": "^28.2.4",

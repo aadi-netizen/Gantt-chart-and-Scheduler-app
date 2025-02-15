@@ -1,13 +1,13 @@
 • Must import the necessary CSS files as instructed in the documentation. importing the css moudule from the provided CDN would a preffered choice.
 • Project_Data must contains the Syncfusion desired values.
 • The Syncfusion Gantt-Chart component has two major sections: 
-  a) TaskFeild properties table
+  a) TaskFeild properties table (Hierchial data)
   b) the Gantt Chart
 
 ***************** Gantt chart attributes *******************
 a) dataSource: {}
 b) taskFields: {}
-c) timelineSettings: {{},{},...,{}}
+c) timelineSettings: {{timelineViewMode: 'Week'},{},...,{}}
 d) height: ""
 
 ************** Gantt chart components ***********
@@ -26,12 +26,32 @@ const taskFields: TaskFieldsModel = {
     startDate: 'StartDate',
     endDate: 'EndDate',
     child: 'subtasks',      // Further partition of the task into smaller ones
+    parentId: 'ParentId'    // For Self-Referential type data
+    // • When the subtasks are not nested inside the parent task 
+    // • the relationship with the parent task is defined by property "ParentId" 
+    // • the Parent task's Id as its value
+    // • In this case the "child" property is not needed here
+
     ----------- subtasks only properties -----------
     duration: 'Duration',
     progress: 'Progress',
+    dependency: "Predecessor"   
   };
 
+  ************** Task scheduling and relationships ************
+  ♦ Four types
+  • "Predeceesor" property is used to define relationship of with another
+  • Syntax : " Predeceesor: '2FS' "
+  a) FS 
+  b) SS
+  c) FF
+  d) SF
 
-  ## Different Timeline views
 
+
+***************** Binding of Data ********************
+• Three types
+a) Hierchial Data
+b) Referential Data
+c) Remorte Data
 
