@@ -1,4 +1,4 @@
-import { GanttComponent, TaskFieldsModel, ColumnsDirective, ColumnDirective, Inject, Resize } from '@syncfusion/ej2-react-gantt';
+import { GanttComponent, TaskFieldsModel, ColumnsDirective, ColumnDirective, Inject, Resize, Edit } from '@syncfusion/ej2-react-gantt';
 import { DataManager, WebApiAdaptor } from '@syncfusion/ej2-data';
 
 function GanttChart() {
@@ -19,7 +19,9 @@ function GanttChart() {
     adaptor: new WebApiAdaptor,
     crossDomain: true,
   });
-
+  const editSettings = {
+    allowTaskbarEditing: true
+  };
 
   return (
     <GanttComponent
@@ -28,6 +30,9 @@ function GanttChart() {
       taskFields={taskFields}
       timelineSettings={{ timelineViewMode: 'Week' }}
       allowResizing={true}
+      splitterSettings={{ position: '50px' }}
+      editSettings={editSettings}
+
     >
       <ColumnsDirective>
         <ColumnDirective field="TaskId" headerText="ID" width="100" textAlign="Right" />
@@ -37,7 +42,7 @@ function GanttChart() {
         <ColumnDirective field="Duration" headerText="Duration" minWidth='100' maxWidth='200' />
         <ColumnDirective field="Progress" headerText="Progress" textAlign='Right' />
       </ColumnsDirective>
-      <Inject services={[Resize]} />
+      <Inject services={[Resize, Edit]} />
     </GanttComponent>
   );
 }

@@ -45,8 +45,11 @@ importers:
         specifier: ^28.2.3
         version: 28.2.3
       '@syncfusion/ej2-react-gantt':
-        specifier: ^28.2.4
-        version: 28.2.4
+        specifier: ^28.2.7
+        version: 28.2.7
+      '@syncfusion/ej2-react-schedule':
+        specifier: ^28.2.7
+        version: 28.2.7
       '@syncfusion/ej2-richtexteditor':
         specifier: ^28.2.4
         version: 28.2.4
@@ -180,151 +183,151 @@ packages:
     engines: {node: '>=6.9.0'}
 
   '@esbuild/aix-ppc64@0.24.2':
-    resolution: {integrity: sha512-thpVCb/rhxE/BnMLQ7GReQLLN8q9qbHmI55F4489/ByVg2aQaQ6kbcLb6FHkocZzQhxc4gx0sCk0tJkKBFzDhA==}
+    resolution: {integrity: sha512-thpVCb/rhxE/BnMLQ7GReQLLN8q9qbHmI55F4489/ByVg2aQaQ6kbcLb6FHkocZzQhxc4gx0sCk0tJkKBFzDhA==, tarball: https://registry.npmjs.org/@esbuild/aix-ppc64/-/aix-ppc64-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [ppc64]
     os: [aix]
 
   '@esbuild/android-arm64@0.24.2':
-    resolution: {integrity: sha512-cNLgeqCqV8WxfcTIOeL4OAtSmL8JjcN6m09XIgro1Wi7cF4t/THaWEa7eL5CMoMBdjoHOTh/vwTO/o2TRXIyzg==}
+    resolution: {integrity: sha512-cNLgeqCqV8WxfcTIOeL4OAtSmL8JjcN6m09XIgro1Wi7cF4t/THaWEa7eL5CMoMBdjoHOTh/vwTO/o2TRXIyzg==, tarball: https://registry.npmjs.org/@esbuild/android-arm64/-/android-arm64-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [arm64]
     os: [android]
 
   '@esbuild/android-arm@0.24.2':
-    resolution: {integrity: sha512-tmwl4hJkCfNHwFB3nBa8z1Uy3ypZpxqxfTQOcHX+xRByyYgunVbZ9MzUUfb0RxaHIMnbHagwAxuTL+tnNM+1/Q==}
+    resolution: {integrity: sha512-tmwl4hJkCfNHwFB3nBa8z1Uy3ypZpxqxfTQOcHX+xRByyYgunVbZ9MzUUfb0RxaHIMnbHagwAxuTL+tnNM+1/Q==, tarball: https://registry.npmjs.org/@esbuild/android-arm/-/android-arm-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [arm]
     os: [android]
 
   '@esbuild/android-x64@0.24.2':
-    resolution: {integrity: sha512-B6Q0YQDqMx9D7rvIcsXfmJfvUYLoP722bgfBlO5cGvNVb5V/+Y7nhBE3mHV9OpxBf4eAS2S68KZztiPaWq4XYw==}
+    resolution: {integrity: sha512-B6Q0YQDqMx9D7rvIcsXfmJfvUYLoP722bgfBlO5cGvNVb5V/+Y7nhBE3mHV9OpxBf4eAS2S68KZztiPaWq4XYw==, tarball: https://registry.npmjs.org/@esbuild/android-x64/-/android-x64-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [x64]
     os: [android]
 
   '@esbuild/darwin-arm64@0.24.2':
-    resolution: {integrity: sha512-kj3AnYWc+CekmZnS5IPu9D+HWtUI49hbnyqk0FLEJDbzCIQt7hg7ucF1SQAilhtYpIujfaHr6O0UHlzzSPdOeA==}
+    resolution: {integrity: sha512-kj3AnYWc+CekmZnS5IPu9D+HWtUI49hbnyqk0FLEJDbzCIQt7hg7ucF1SQAilhtYpIujfaHr6O0UHlzzSPdOeA==, tarball: https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [arm64]
     os: [darwin]
 
   '@esbuild/darwin-x64@0.24.2':
-    resolution: {integrity: sha512-WeSrmwwHaPkNR5H3yYfowhZcbriGqooyu3zI/3GGpF8AyUdsrrP0X6KumITGA9WOyiJavnGZUwPGvxvwfWPHIA==}
+    resolution: {integrity: sha512-WeSrmwwHaPkNR5H3yYfowhZcbriGqooyu3zI/3GGpF8AyUdsrrP0X6KumITGA9WOyiJavnGZUwPGvxvwfWPHIA==, tarball: https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [x64]
     os: [darwin]
 
   '@esbuild/freebsd-arm64@0.24.2':
-    resolution: {integrity: sha512-UN8HXjtJ0k/Mj6a9+5u6+2eZ2ERD7Edt1Q9IZiB5UZAIdPnVKDoG7mdTVGhHJIeEml60JteamR3qhsr1r8gXvg==}
+    resolution: {integrity: sha512-UN8HXjtJ0k/Mj6a9+5u6+2eZ2ERD7Edt1Q9IZiB5UZAIdPnVKDoG7mdTVGhHJIeEml60JteamR3qhsr1r8gXvg==, tarball: https://registry.npmjs.org/@esbuild/freebsd-arm64/-/freebsd-arm64-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [arm64]
     os: [freebsd]
 
   '@esbuild/freebsd-x64@0.24.2':
-    resolution: {integrity: sha512-TvW7wE/89PYW+IevEJXZ5sF6gJRDY/14hyIGFXdIucxCsbRmLUcjseQu1SyTko+2idmCw94TgyaEZi9HUSOe3Q==}
+    resolution: {integrity: sha512-TvW7wE/89PYW+IevEJXZ5sF6gJRDY/14hyIGFXdIucxCsbRmLUcjseQu1SyTko+2idmCw94TgyaEZi9HUSOe3Q==, tarball: https://registry.npmjs.org/@esbuild/freebsd-x64/-/freebsd-x64-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [x64]
     os: [freebsd]
 
   '@esbuild/linux-arm64@0.24.2':
-    resolution: {integrity: sha512-7HnAD6074BW43YvvUmE/35Id9/NB7BeX5EoNkK9obndmZBUk8xmJJeU7DwmUeN7tkysslb2eSl6CTrYz6oEMQg==}
+    resolution: {integrity: sha512-7HnAD6074BW43YvvUmE/35Id9/NB7BeX5EoNkK9obndmZBUk8xmJJeU7DwmUeN7tkysslb2eSl6CTrYz6oEMQg==, tarball: https://registry.npmjs.org/@esbuild/linux-arm64/-/linux-arm64-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [arm64]
     os: [linux]
 
   '@esbuild/linux-arm@0.24.2':
-    resolution: {integrity: sha512-n0WRM/gWIdU29J57hJyUdIsk0WarGd6To0s+Y+LwvlC55wt+GT/OgkwoXCXvIue1i1sSNWblHEig00GBWiJgfA==}
+    resolution: {integrity: sha512-n0WRM/gWIdU29J57hJyUdIsk0WarGd6To0s+Y+LwvlC55wt+GT/OgkwoXCXvIue1i1sSNWblHEig00GBWiJgfA==, tarball: https://registry.npmjs.org/@esbuild/linux-arm/-/linux-arm-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [arm]
     os: [linux]
 
   '@esbuild/linux-ia32@0.24.2':
-    resolution: {integrity: sha512-sfv0tGPQhcZOgTKO3oBE9xpHuUqguHvSo4jl+wjnKwFpapx+vUDcawbwPNuBIAYdRAvIDBfZVvXprIj3HA+Ugw==}
+    resolution: {integrity: sha512-sfv0tGPQhcZOgTKO3oBE9xpHuUqguHvSo4jl+wjnKwFpapx+vUDcawbwPNuBIAYdRAvIDBfZVvXprIj3HA+Ugw==, tarball: https://registry.npmjs.org/@esbuild/linux-ia32/-/linux-ia32-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [ia32]
     os: [linux]
 
   '@esbuild/linux-loong64@0.24.2':
-    resolution: {integrity: sha512-CN9AZr8kEndGooS35ntToZLTQLHEjtVB5n7dl8ZcTZMonJ7CCfStrYhrzF97eAecqVbVJ7APOEe18RPI4KLhwQ==}
+    resolution: {integrity: sha512-CN9AZr8kEndGooS35ntToZLTQLHEjtVB5n7dl8ZcTZMonJ7CCfStrYhrzF97eAecqVbVJ7APOEe18RPI4KLhwQ==, tarball: https://registry.npmjs.org/@esbuild/linux-loong64/-/linux-loong64-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [loong64]
     os: [linux]
 
   '@esbuild/linux-mips64el@0.24.2':
-    resolution: {integrity: sha512-iMkk7qr/wl3exJATwkISxI7kTcmHKE+BlymIAbHO8xanq/TjHaaVThFF6ipWzPHryoFsesNQJPE/3wFJw4+huw==}
+    resolution: {integrity: sha512-iMkk7qr/wl3exJATwkISxI7kTcmHKE+BlymIAbHO8xanq/TjHaaVThFF6ipWzPHryoFsesNQJPE/3wFJw4+huw==, tarball: https://registry.npmjs.org/@esbuild/linux-mips64el/-/linux-mips64el-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [mips64el]
     os: [linux]
 
   '@esbuild/linux-ppc64@0.24.2':
-    resolution: {integrity: sha512-shsVrgCZ57Vr2L8mm39kO5PPIb+843FStGt7sGGoqiiWYconSxwTiuswC1VJZLCjNiMLAMh34jg4VSEQb+iEbw==}
+    resolution: {integrity: sha512-shsVrgCZ57Vr2L8mm39kO5PPIb+843FStGt7sGGoqiiWYconSxwTiuswC1VJZLCjNiMLAMh34jg4VSEQb+iEbw==, tarball: https://registry.npmjs.org/@esbuild/linux-ppc64/-/linux-ppc64-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [ppc64]
     os: [linux]
 
   '@esbuild/linux-riscv64@0.24.2':
-    resolution: {integrity: sha512-4eSFWnU9Hhd68fW16GD0TINewo1L6dRrB+oLNNbYyMUAeOD2yCK5KXGK1GH4qD/kT+bTEXjsyTCiJGHPZ3eM9Q==}
+    resolution: {integrity: sha512-4eSFWnU9Hhd68fW16GD0TINewo1L6dRrB+oLNNbYyMUAeOD2yCK5KXGK1GH4qD/kT+bTEXjsyTCiJGHPZ3eM9Q==, tarball: https://registry.npmjs.org/@esbuild/linux-riscv64/-/linux-riscv64-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [riscv64]
     os: [linux]
 
   '@esbuild/linux-s390x@0.24.2':
-    resolution: {integrity: sha512-S0Bh0A53b0YHL2XEXC20bHLuGMOhFDO6GN4b3YjRLK//Ep3ql3erpNcPlEFed93hsQAjAQDNsvcK+hV90FubSw==}
+    resolution: {integrity: sha512-S0Bh0A53b0YHL2XEXC20bHLuGMOhFDO6GN4b3YjRLK//Ep3ql3erpNcPlEFed93hsQAjAQDNsvcK+hV90FubSw==, tarball: https://registry.npmjs.org/@esbuild/linux-s390x/-/linux-s390x-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [s390x]
     os: [linux]
 
   '@esbuild/linux-x64@0.24.2':
-    resolution: {integrity: sha512-8Qi4nQcCTbLnK9WoMjdC9NiTG6/E38RNICU6sUNqK0QFxCYgoARqVqxdFmWkdonVsvGqWhmm7MO0jyTqLqwj0Q==}
+    resolution: {integrity: sha512-8Qi4nQcCTbLnK9WoMjdC9NiTG6/E38RNICU6sUNqK0QFxCYgoARqVqxdFmWkdonVsvGqWhmm7MO0jyTqLqwj0Q==, tarball: https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [x64]
     os: [linux]
 
   '@esbuild/netbsd-arm64@0.24.2':
-    resolution: {integrity: sha512-wuLK/VztRRpMt9zyHSazyCVdCXlpHkKm34WUyinD2lzK07FAHTq0KQvZZlXikNWkDGoT6x3TD51jKQ7gMVpopw==}
+    resolution: {integrity: sha512-wuLK/VztRRpMt9zyHSazyCVdCXlpHkKm34WUyinD2lzK07FAHTq0KQvZZlXikNWkDGoT6x3TD51jKQ7gMVpopw==, tarball: https://registry.npmjs.org/@esbuild/netbsd-arm64/-/netbsd-arm64-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [arm64]
     os: [netbsd]
 
   '@esbuild/netbsd-x64@0.24.2':
-    resolution: {integrity: sha512-VefFaQUc4FMmJuAxmIHgUmfNiLXY438XrL4GDNV1Y1H/RW3qow68xTwjZKfj/+Plp9NANmzbH5R40Meudu8mmw==}
+    resolution: {integrity: sha512-VefFaQUc4FMmJuAxmIHgUmfNiLXY438XrL4GDNV1Y1H/RW3qow68xTwjZKfj/+Plp9NANmzbH5R40Meudu8mmw==, tarball: https://registry.npmjs.org/@esbuild/netbsd-x64/-/netbsd-x64-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [x64]
     os: [netbsd]
 
   '@esbuild/openbsd-arm64@0.24.2':
-    resolution: {integrity: sha512-YQbi46SBct6iKnszhSvdluqDmxCJA+Pu280Av9WICNwQmMxV7nLRHZfjQzwbPs3jeWnuAhE9Jy0NrnJ12Oz+0A==}
+    resolution: {integrity: sha512-YQbi46SBct6iKnszhSvdluqDmxCJA+Pu280Av9WICNwQmMxV7nLRHZfjQzwbPs3jeWnuAhE9Jy0NrnJ12Oz+0A==, tarball: https://registry.npmjs.org/@esbuild/openbsd-arm64/-/openbsd-arm64-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [arm64]
     os: [openbsd]
 
   '@esbuild/openbsd-x64@0.24.2':
-    resolution: {integrity: sha512-+iDS6zpNM6EnJyWv0bMGLWSWeXGN/HTaF/LXHXHwejGsVi+ooqDfMCCTerNFxEkM3wYVcExkeGXNqshc9iMaOA==}
+    resolution: {integrity: sha512-+iDS6zpNM6EnJyWv0bMGLWSWeXGN/HTaF/LXHXHwejGsVi+ooqDfMCCTerNFxEkM3wYVcExkeGXNqshc9iMaOA==, tarball: https://registry.npmjs.org/@esbuild/openbsd-x64/-/openbsd-x64-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [x64]
     os: [openbsd]
 
   '@esbuild/sunos-x64@0.24.2':
-    resolution: {integrity: sha512-hTdsW27jcktEvpwNHJU4ZwWFGkz2zRJUz8pvddmXPtXDzVKTTINmlmga3ZzwcuMpUvLw7JkLy9QLKyGpD2Yxig==}
+    resolution: {integrity: sha512-hTdsW27jcktEvpwNHJU4ZwWFGkz2zRJUz8pvddmXPtXDzVKTTINmlmga3ZzwcuMpUvLw7JkLy9QLKyGpD2Yxig==, tarball: https://registry.npmjs.org/@esbuild/sunos-x64/-/sunos-x64-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [x64]
     os: [sunos]
 
   '@esbuild/win32-arm64@0.24.2':
-    resolution: {integrity: sha512-LihEQ2BBKVFLOC9ZItT9iFprsE9tqjDjnbulhHoFxYQtQfai7qfluVODIYxt1PgdoyQkz23+01rzwNwYfutxUQ==}
+    resolution: {integrity: sha512-LihEQ2BBKVFLOC9ZItT9iFprsE9tqjDjnbulhHoFxYQtQfai7qfluVODIYxt1PgdoyQkz23+01rzwNwYfutxUQ==, tarball: https://registry.npmjs.org/@esbuild/win32-arm64/-/win32-arm64-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [arm64]
     os: [win32]
 
   '@esbuild/win32-ia32@0.24.2':
-    resolution: {integrity: sha512-q+iGUwfs8tncmFC9pcnD5IvRHAzmbwQ3GPS5/ceCyHdjXubwQWI12MKWSNSMYLJMq23/IUCvJMS76PDqXe1fxA==}
+    resolution: {integrity: sha512-q+iGUwfs8tncmFC9pcnD5IvRHAzmbwQ3GPS5/ceCyHdjXubwQWI12MKWSNSMYLJMq23/IUCvJMS76PDqXe1fxA==, tarball: https://registry.npmjs.org/@esbuild/win32-ia32/-/win32-ia32-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [ia32]
     os: [win32]
 
   '@esbuild/win32-x64@0.24.2':
-    resolution: {integrity: sha512-7VTgWzgMGvup6aSqDPLiW5zHaxYJGTO4OokMjIlrCtf+VpEL+cXKtCvg723iguPYI5oaUNdS+/V7OU2gvXVWEg==}
+    resolution: {integrity: sha512-7VTgWzgMGvup6aSqDPLiW5zHaxYJGTO4OokMjIlrCtf+VpEL+cXKtCvg723iguPYI5oaUNdS+/V7OU2gvXVWEg==, tarball: https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.24.2.tgz}
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
@@ -418,97 +421,97 @@ packages:
     engines: {node: '>= 8'}
 
   '@rollup/rollup-android-arm-eabi@4.34.6':
-    resolution: {integrity: sha512-+GcCXtOQoWuC7hhX1P00LqjjIiS/iOouHXhMdiDSnq/1DGTox4SpUvO52Xm+div6+106r+TcvOeo/cxvyEyTgg==}
+    resolution: {integrity: sha512-+GcCXtOQoWuC7hhX1P00LqjjIiS/iOouHXhMdiDSnq/1DGTox4SpUvO52Xm+div6+106r+TcvOeo/cxvyEyTgg==, tarball: https://registry.npmjs.org/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.34.6.tgz}
     cpu: [arm]
     os: [android]
 
   '@rollup/rollup-android-arm64@4.34.6':
-    resolution: {integrity: sha512-E8+2qCIjciYUnCa1AiVF1BkRgqIGW9KzJeesQqVfyRITGQN+dFuoivO0hnro1DjT74wXLRZ7QF8MIbz+luGaJA==}
+    resolution: {integrity: sha512-E8+2qCIjciYUnCa1AiVF1BkRgqIGW9KzJeesQqVfyRITGQN+dFuoivO0hnro1DjT74wXLRZ7QF8MIbz+luGaJA==, tarball: https://registry.npmjs.org/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.34.6.tgz}
     cpu: [arm64]
     os: [android]
 
   '@rollup/rollup-darwin-arm64@4.34.6':
-    resolution: {integrity: sha512-z9Ib+OzqN3DZEjX7PDQMHEhtF+t6Mi2z/ueChQPLS/qUMKY7Ybn5A2ggFoKRNRh1q1T03YTQfBTQCJZiepESAg==}
+    resolution: {integrity: sha512-z9Ib+OzqN3DZEjX7PDQMHEhtF+t6Mi2z/ueChQPLS/qUMKY7Ybn5A2ggFoKRNRh1q1T03YTQfBTQCJZiepESAg==, tarball: https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.34.6.tgz}
     cpu: [arm64]
     os: [darwin]
 
   '@rollup/rollup-darwin-x64@4.34.6':
-    resolution: {integrity: sha512-PShKVY4u0FDAR7jskyFIYVyHEPCPnIQY8s5OcXkdU8mz3Y7eXDJPdyM/ZWjkYdR2m0izD9HHWA8sGcXn+Qrsyg==}
+    resolution: {integrity: sha512-PShKVY4u0FDAR7jskyFIYVyHEPCPnIQY8s5OcXkdU8mz3Y7eXDJPdyM/ZWjkYdR2m0izD9HHWA8sGcXn+Qrsyg==, tarball: https://registry.npmjs.org/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.34.6.tgz}
     cpu: [x64]
     os: [darwin]
 
   '@rollup/rollup-freebsd-arm64@4.34.6':
-    resolution: {integrity: sha512-YSwyOqlDAdKqs0iKuqvRHLN4SrD2TiswfoLfvYXseKbL47ht1grQpq46MSiQAx6rQEN8o8URtpXARCpqabqxGQ==}
+    resolution: {integrity: sha512-YSwyOqlDAdKqs0iKuqvRHLN4SrD2TiswfoLfvYXseKbL47ht1grQpq46MSiQAx6rQEN8o8URtpXARCpqabqxGQ==, tarball: https://registry.npmjs.org/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.34.6.tgz}
     cpu: [arm64]
     os: [freebsd]
 
   '@rollup/rollup-freebsd-x64@4.34.6':
-    resolution: {integrity: sha512-HEP4CgPAY1RxXwwL5sPFv6BBM3tVeLnshF03HMhJYCNc6kvSqBgTMmsEjb72RkZBAWIqiPUyF1JpEBv5XT9wKQ==}
+    resolution: {integrity: sha512-HEP4CgPAY1RxXwwL5sPFv6BBM3tVeLnshF03HMhJYCNc6kvSqBgTMmsEjb72RkZBAWIqiPUyF1JpEBv5XT9wKQ==, tarball: https://registry.npmjs.org/@rollup/rollup-freebsd-x64/-/rollup-freebsd-x64-4.34.6.tgz}
     cpu: [x64]
     os: [freebsd]
 
   '@rollup/rollup-linux-arm-gnueabihf@4.34.6':
-    resolution: {integrity: sha512-88fSzjC5xeH9S2Vg3rPgXJULkHcLYMkh8faix8DX4h4TIAL65ekwuQMA/g2CXq8W+NJC43V6fUpYZNjaX3+IIg==}
+    resolution: {integrity: sha512-88fSzjC5xeH9S2Vg3rPgXJULkHcLYMkh8faix8DX4h4TIAL65ekwuQMA/g2CXq8W+NJC43V6fUpYZNjaX3+IIg==, tarball: https://registry.npmjs.org/@rollup/rollup-linux-arm-gnueabihf/-/rollup-linux-arm-gnueabihf-4.34.6.tgz}
     cpu: [arm]
     os: [linux]
 
   '@rollup/rollup-linux-arm-musleabihf@4.34.6':
-    resolution: {integrity: sha512-wM4ztnutBqYFyvNeR7Av+reWI/enK9tDOTKNF+6Kk2Q96k9bwhDDOlnCUNRPvromlVXo04riSliMBs/Z7RteEg==}
+    resolution: {integrity: sha512-wM4ztnutBqYFyvNeR7Av+reWI/enK9tDOTKNF+6Kk2Q96k9bwhDDOlnCUNRPvromlVXo04riSliMBs/Z7RteEg==, tarball: https://registry.npmjs.org/@rollup/rollup-linux-arm-musleabihf/-/rollup-linux-arm-musleabihf-4.34.6.tgz}
     cpu: [arm]
     os: [linux]
 
   '@rollup/rollup-linux-arm64-gnu@4.34.6':
-    resolution: {integrity: sha512-9RyprECbRa9zEjXLtvvshhw4CMrRa3K+0wcp3KME0zmBe1ILmvcVHnypZ/aIDXpRyfhSYSuN4EPdCCj5Du8FIA==}
+    resolution: {integrity: sha512-9RyprECbRa9zEjXLtvvshhw4CMrRa3K+0wcp3KME0zmBe1ILmvcVHnypZ/aIDXpRyfhSYSuN4EPdCCj5Du8FIA==, tarball: https://registry.npmjs.org/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.34.6.tgz}
     cpu: [arm64]
     os: [linux]
 
   '@rollup/rollup-linux-arm64-musl@4.34.6':
-    resolution: {integrity: sha512-qTmklhCTyaJSB05S+iSovfo++EwnIEZxHkzv5dep4qoszUMX5Ca4WM4zAVUMbfdviLgCSQOu5oU8YoGk1s6M9Q==}
+    resolution: {integrity: sha512-qTmklhCTyaJSB05S+iSovfo++EwnIEZxHkzv5dep4qoszUMX5Ca4WM4zAVUMbfdviLgCSQOu5oU8YoGk1s6M9Q==, tarball: https://registry.npmjs.org/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.34.6.tgz}
     cpu: [arm64]
     os: [linux]
 
   '@rollup/rollup-linux-loongarch64-gnu@4.34.6':
-    resolution: {integrity: sha512-4Qmkaps9yqmpjY5pvpkfOerYgKNUGzQpFxV6rnS7c/JfYbDSU0y6WpbbredB5cCpLFGJEqYX40WUmxMkwhWCjw==}
+    resolution: {integrity: sha512-4Qmkaps9yqmpjY5pvpkfOerYgKNUGzQpFxV6rnS7c/JfYbDSU0y6WpbbredB5cCpLFGJEqYX40WUmxMkwhWCjw==, tarball: https://registry.npmjs.org/@rollup/rollup-linux-loongarch64-gnu/-/rollup-linux-loongarch64-gnu-4.34.6.tgz}
     cpu: [loong64]
     os: [linux]
 
   '@rollup/rollup-linux-powerpc64le-gnu@4.34.6':
-    resolution: {integrity: sha512-Zsrtux3PuaxuBTX/zHdLaFmcofWGzaWW1scwLU3ZbW/X+hSsFbz9wDIp6XvnT7pzYRl9MezWqEqKy7ssmDEnuQ==}
+    resolution: {integrity: sha512-Zsrtux3PuaxuBTX/zHdLaFmcofWGzaWW1scwLU3ZbW/X+hSsFbz9wDIp6XvnT7pzYRl9MezWqEqKy7ssmDEnuQ==, tarball: https://registry.npmjs.org/@rollup/rollup-linux-powerpc64le-gnu/-/rollup-linux-powerpc64le-gnu-4.34.6.tgz}
     cpu: [ppc64]
     os: [linux]
 
   '@rollup/rollup-linux-riscv64-gnu@4.34.6':
-    resolution: {integrity: sha512-aK+Zp+CRM55iPrlyKiU3/zyhgzWBxLVrw2mwiQSYJRobCURb781+XstzvA8Gkjg/hbdQFuDw44aUOxVQFycrAg==}
+    resolution: {integrity: sha512-aK+Zp+CRM55iPrlyKiU3/zyhgzWBxLVrw2mwiQSYJRobCURb781+XstzvA8Gkjg/hbdQFuDw44aUOxVQFycrAg==, tarball: https://registry.npmjs.org/@rollup/rollup-linux-riscv64-gnu/-/rollup-linux-riscv64-gnu-4.34.6.tgz}
     cpu: [riscv64]
     os: [linux]
 
   '@rollup/rollup-linux-s390x-gnu@4.34.6':
-    resolution: {integrity: sha512-WoKLVrY9ogmaYPXwTH326+ErlCIgMmsoRSx6bO+l68YgJnlOXhygDYSZe/qbUJCSiCiZAQ+tKm88NcWuUXqOzw==}
+    resolution: {integrity: sha512-WoKLVrY9ogmaYPXwTH326+ErlCIgMmsoRSx6bO+l68YgJnlOXhygDYSZe/qbUJCSiCiZAQ+tKm88NcWuUXqOzw==, tarball: https://registry.npmjs.org/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.34.6.tgz}
     cpu: [s390x]
     os: [linux]
 
   '@rollup/rollup-linux-x64-gnu@4.34.6':
-    resolution: {integrity: sha512-Sht4aFvmA4ToHd2vFzwMFaQCiYm2lDFho5rPcvPBT5pCdC+GwHG6CMch4GQfmWTQ1SwRKS0dhDYb54khSrjDWw==}
+    resolution: {integrity: sha512-Sht4aFvmA4ToHd2vFzwMFaQCiYm2lDFho5rPcvPBT5pCdC+GwHG6CMch4GQfmWTQ1SwRKS0dhDYb54khSrjDWw==, tarball: https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.34.6.tgz}
     cpu: [x64]
     os: [linux]
 
   '@rollup/rollup-linux-x64-musl@4.34.6':
-    resolution: {integrity: sha512-zmmpOQh8vXc2QITsnCiODCDGXFC8LMi64+/oPpPx5qz3pqv0s6x46ps4xoycfUiVZps5PFn1gksZzo4RGTKT+A==}
+    resolution: {integrity: sha512-zmmpOQh8vXc2QITsnCiODCDGXFC8LMi64+/oPpPx5qz3pqv0s6x46ps4xoycfUiVZps5PFn1gksZzo4RGTKT+A==, tarball: https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.34.6.tgz}
     cpu: [x64]
     os: [linux]
 
   '@rollup/rollup-win32-arm64-msvc@4.34.6':
-    resolution: {integrity: sha512-3/q1qUsO/tLqGBaD4uXsB6coVGB3usxw3qyeVb59aArCgedSF66MPdgRStUd7vbZOsko/CgVaY5fo2vkvPLWiA==}
+    resolution: {integrity: sha512-3/q1qUsO/tLqGBaD4uXsB6coVGB3usxw3qyeVb59aArCgedSF66MPdgRStUd7vbZOsko/CgVaY5fo2vkvPLWiA==, tarball: https://registry.npmjs.org/@rollup/rollup-win32-arm64-msvc/-/rollup-win32-arm64-msvc-4.34.6.tgz}
     cpu: [arm64]
     os: [win32]
 
   '@rollup/rollup-win32-ia32-msvc@4.34.6':
-    resolution: {integrity: sha512-oLHxuyywc6efdKVTxvc0135zPrRdtYVjtVD5GUm55I3ODxhU/PwkQFD97z16Xzxa1Fz0AEe4W/2hzRtd+IfpOA==}
+    resolution: {integrity: sha512-oLHxuyywc6efdKVTxvc0135zPrRdtYVjtVD5GUm55I3ODxhU/PwkQFD97z16Xzxa1Fz0AEe4W/2hzRtd+IfpOA==, tarball: https://registry.npmjs.org/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.34.6.tgz}
     cpu: [ia32]
     os: [win32]
 
   '@rollup/rollup-win32-x64-msvc@4.34.6':
-    resolution: {integrity: sha512-0PVwmgzZ8+TZ9oGBmdZoQVXflbvuwzN/HRclujpl4N/q3i+y0lqLw8n1bXA8ru3sApDjlmONaNAuYr38y1Kr9w==}
+    resolution: {integrity: sha512-0PVwmgzZ8+TZ9oGBmdZoQVXflbvuwzN/HRclujpl4N/q3i+y0lqLw8n1bXA8ru3sApDjlmONaNAuYr38y1Kr9w==, tarball: https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.34.6.tgz}
     cpu: [x64]
     os: [win32]
 
@@ -516,11 +519,21 @@ packages:
     resolution: {integrity: sha512-IHgGFFpeURhtBbC3LrogUJxNRNNMe61pmWe6uOBtwLRIOJXmNkt0NTJiecTyIwW/KFc2kcwijugmvIPDGIneQw==}
     hasBin: true
 
+  '@syncfusion/ej2-base@28.2.5':
+    resolution: {integrity: sha512-FEM2r55BQGPvEAL8Hzxy2Km+znG7frFcsB+pwfDOxid5agM4b5dbzOzII7vdMgl4MRxplKmcuXkDX28Hozdadg==, tarball: https://registry.npmjs.org/@syncfusion/ej2-base/-/ej2-base-28.2.5.tgz}
+    hasBin: true
+
   '@syncfusion/ej2-buttons@28.2.3':
     resolution: {integrity: sha512-EeGq0dNWxWQj4pslG8x/XvPVbeoV0R56x/ymo3DA+6KtFj2JVYHL/3vB2I2pvUlogPS9fBVC6OQmYLWLQ6KL3A==}
 
+  '@syncfusion/ej2-buttons@28.2.7':
+    resolution: {integrity: sha512-pHWwqvxmc97tNXPaMJpu5iUyZr0RUiIPwbqX9J97lfrt4KqUm6Zzoj9hvMR+ai+gE7cV1KstWrwjUY1H3zYunw==, tarball: https://registry.npmjs.org/@syncfusion/ej2-buttons/-/ej2-buttons-28.2.7.tgz}
+
   '@syncfusion/ej2-calendars@28.2.3':
     resolution: {integrity: sha512-Km/mU3ZIyLeJQnB1wXDRMDlweune6cp11zg6qm5Ib8hN+gtO6v2tiRcz4AZITqUZX2TIvIxyrxw3pEgtEFCFgQ==}
+
+  '@syncfusion/ej2-calendars@28.2.7':
+    resolution: {integrity: sha512-P3clUdm9vAzoVYYQ3JEQ2P73zeew4Rabwmvgu1A6kk6ikv17hOdCMZfV3iWpZOO4AGODJAXhzrwaJdh2A7s+dQ==, tarball: https://registry.npmjs.org/@syncfusion/ej2-calendars/-/ej2-calendars-28.2.7.tgz}
 
   '@syncfusion/ej2-compression@28.2.3':
     resolution: {integrity: sha512-OG+qWn2fNT4CtLpBWAif5gvZsrnpPrgEcxNQlT6uQX6ntDHT5IUDHSdvpUypGmJM3cDdcaqK8qygcgWBbj9ceQ==}
@@ -531,6 +544,9 @@ packages:
   '@syncfusion/ej2-dropdowns@28.2.4':
     resolution: {integrity: sha512-XqFUS/1pZ/WEz6+9ifRSJdxFct0qks6g9lBpYMlk14l2l0ZvE7gahtgXjkHtsuJmO6VNmTmcqcCtgFa82qOhPw==}
 
+  '@syncfusion/ej2-dropdowns@28.2.7':
+    resolution: {integrity: sha512-QHp58huRCv5LqbKz2j7lrYaZtdge3+gN8/a57g0uoleOB/xEt19kTJLXeO6bT5+imwbFtRMHO1js7RmyDedNTw==, tarball: https://registry.npmjs.org/@syncfusion/ej2-dropdowns/-/ej2-dropdowns-28.2.7.tgz}
+
   '@syncfusion/ej2-excel-export@28.2.3':
     resolution: {integrity: sha512-DgL6Jg7uKFJKB83EDU0WLMTYpJDCGXsgbJ59ODSHOW+go+3gCBK/A+NJ7eZdacVQ0kAUNhuXRaIyjTemDqK6WA==}
 
@@ -540,11 +556,20 @@ packages:
   '@syncfusion/ej2-filemanager@28.2.4':
     resolution: {integrity: sha512-9OAKJQX5Gjp5mQveXYCj3gye88vapa7Kil3YZAN+9w3qS4zeJ0lVNYoixIVmMcFUoGMzTOnnSayPjeVo4isNXw==}
 
+  '@syncfusion/ej2-filemanager@28.2.6':
+    resolution: {integrity: sha512-f3cHaFmC6jsyb3jplo6s3kYTNNOccW0uWS3DbFmhL0ycFOFA81ZqRJFng9eEun1xFjw4TgfOpkruv5CnrPub4Q==, tarball: https://registry.npmjs.org/@syncfusion/ej2-filemanager/-/ej2-filemanager-28.2.6.tgz}
+
   '@syncfusion/ej2-gantt@28.2.4':
     resolution: {integrity: sha512-NyNRc/Xpt+yVsHSJ3JAqXFd+ToWB3vXktaLa8GDejqvJ/XfBKPnP/HDVLWbbWnlGMQMDlbpKYuEF0VTvy1NC7g==}
 
+  '@syncfusion/ej2-gantt@28.2.7':
+    resolution: {integrity: sha512-XDnJ874gP3Bw5l6vkwIphayI2UAZOCFrokxnWSuFLtjedfV0WazXsH7kWzgQfGU3bdOajFjzgSc3LjpMPJxdFQ==, tarball: https://registry.npmjs.org/@syncfusion/ej2-gantt/-/ej2-gantt-28.2.7.tgz}
+
   '@syncfusion/ej2-grids@28.2.4':
     resolution: {integrity: sha512-fim8ABFEFA+bXVYNje//9earzHGSgMwGMEJGcpjW2S68XE5waXyDTQ6Bngg0AzQIejsdslPdWnvHvCQA4+XXAw==}
+
+  '@syncfusion/ej2-grids@28.2.7':
+    resolution: {integrity: sha512-PoIgxXCeLF5cq/GdMDabLGkGahzTvHlilGk6FhPAtK5HamSboDveSNkSRUJzbhs54blti5IkcwHgO9e22xDcug==, tarball: https://registry.npmjs.org/@syncfusion/ej2-grids/-/ej2-grids-28.2.7.tgz}
 
   '@syncfusion/ej2-icons@28.2.3':
     resolution: {integrity: sha512-lwDMbygU3y15jLkTCtvFb7dwfEtOVknjajYWnp+wmCJF14ZUwDEBuY1jCcpDcEd6mHkDdS5GFlpifdjZhh9jJA==}
@@ -555,11 +580,17 @@ packages:
   '@syncfusion/ej2-layouts@28.2.4':
     resolution: {integrity: sha512-2J2q6NoOjw5iu6ZSKetUao/Q4d99iSWiEGsR1Xy8Bet0+bNTD67h47wtPzPfNIaPKnO4lbISPCbTpqOlvaKKFg==}
 
+  '@syncfusion/ej2-layouts@28.2.5':
+    resolution: {integrity: sha512-al+ap8vFqULPTcz8gAaf3wvtcQCPNmdXZk8eoh1k60EjtkBMvdlUhDTBnJLPXCmwOQKeg6oX0TrYIlEyM9VqUQ==, tarball: https://registry.npmjs.org/@syncfusion/ej2-layouts/-/ej2-layouts-28.2.5.tgz}
+
   '@syncfusion/ej2-lists@28.2.3':
     resolution: {integrity: sha512-MB9ecuC0A3T6jwY6xIuHu5ZOtFcoNJGGCDWHiLRXH2OQWkeTsiGe0vjG2skTcrl0LXkinRAXo79RU1DaPFDB1Q==}
 
   '@syncfusion/ej2-navigations@28.2.4':
     resolution: {integrity: sha512-tS2f6f8dlnuvVf6MbXc2Blo6A/1vQN82BI1ZC9pX9r4ZC79Q5Y5391A5nUxQq6PI/lTq6nNir65wR+KRe3rlQA==}
+
+  '@syncfusion/ej2-navigations@28.2.6':
+    resolution: {integrity: sha512-ThpjXVtntfapUX1ep0HvDDBHp5ERnRdRusBOuNONz74hiW23NnlOGjkSFZSJ1qctlpMAuwQXLej4oKikCAjL8w==, tarball: https://registry.npmjs.org/@syncfusion/ej2-navigations/-/ej2-navigations-28.2.6.tgz}
 
   '@syncfusion/ej2-notifications@28.2.3':
     resolution: {integrity: sha512-Nkw3XuH5qw0QKEq3m0hAraPIVRVEYUDJgjQGEJZrKCtQCST1t8EPUAD+DjT63HVpzwXK0LGAFWkZgXLevf75Bw==}
@@ -570,14 +601,26 @@ packages:
   '@syncfusion/ej2-popups@28.2.3':
     resolution: {integrity: sha512-9gjfbW7s90hrjmv8sYkDLYuttOJsS70U4P1wt2O/EaRt/T6UPdSAz3616BojPYica4RUTlbW5lTzYTRHbDBddg==}
 
-  '@syncfusion/ej2-react-base@28.2.3':
-    resolution: {integrity: sha512-mrKI8OiSujBxOVpuWUGTiaCzS+cC8yGpujr4uG79ce/Rle4knE9BZEbEDQamZkAxT/u8kG4yetox6vs7kLI9EA==}
+  '@syncfusion/ej2-popups@28.2.6':
+    resolution: {integrity: sha512-qqKaNrQlm0NoVImPYRTmwyibLl7B49FW6YbA6P7AlPQjBM3stMjuXIS9fJGXUJ3/ymLIOJJVUg1mlMdhqVATqg==, tarball: https://registry.npmjs.org/@syncfusion/ej2-popups/-/ej2-popups-28.2.6.tgz}
 
-  '@syncfusion/ej2-react-gantt@28.2.4':
-    resolution: {integrity: sha512-4XzxNZ9T966V7BVp0Mj59P8BriO17tKoe24eD0wqjsolDm57L7JrTSRFRb9CfR7TenrMM+23BbbYVj1AH3oN8w==}
+  '@syncfusion/ej2-react-base@28.2.7':
+    resolution: {integrity: sha512-SWZ26XO6kF9p2MNpUnj6fUozy4p/XMnQOAdlxCnjxh3JuphCQ/Sd1sUOUHdANuLIy7e3lohOGzdfxq4yYnxgsg==, tarball: https://registry.npmjs.org/@syncfusion/ej2-react-base/-/ej2-react-base-28.2.7.tgz}
+
+  '@syncfusion/ej2-react-gantt@28.2.7':
+    resolution: {integrity: sha512-XFv+8Qt7AOG6hVCKxsSlRcj7XYaNeV4pGzPhrWq8169AeBHHSMxkJ5yYatoRS8haeOfOjYaOs4zQYmQUQztddw==, tarball: https://registry.npmjs.org/@syncfusion/ej2-react-gantt/-/ej2-react-gantt-28.2.7.tgz}
+
+  '@syncfusion/ej2-react-schedule@28.2.7':
+    resolution: {integrity: sha512-ueVRvxt86KLG1wGDJPUzG+OGYQO+IdkfbRtHtiZhFZubwA91Cucn2k0st1ojaL7+qwsGIxQZVgXRyTBgp1o0SQ==, tarball: https://registry.npmjs.org/@syncfusion/ej2-react-schedule/-/ej2-react-schedule-28.2.7.tgz}
 
   '@syncfusion/ej2-richtexteditor@28.2.4':
     resolution: {integrity: sha512-2NiElyvP4f4FhuNeIb1TTtOoj3ugZrURwGO1RC3Plk+BrTHxXgBGLRn2+RbYziW6dqP0o3PL9+7nOGo43T45uw==}
+
+  '@syncfusion/ej2-richtexteditor@28.2.7':
+    resolution: {integrity: sha512-v0b+4+QnSd4NVm33TNynN1b0Et5QhvbaGBdvUHwKQVB1YWP5yc19XbfAiSLHtyocmBcVAXa5oDC2Cnf0dd4j2w==, tarball: https://registry.npmjs.org/@syncfusion/ej2-richtexteditor/-/ej2-richtexteditor-28.2.7.tgz}
+
+  '@syncfusion/ej2-schedule@28.2.7':
+    resolution: {integrity: sha512-1z2cXvC7wcdcxiIgpN7Vp7dJxLHgzJKI+mi+3MdfufcDTc7Bb3oKtR4vcMmVJTQyBYdm0uL4qJGom+9SWw4cBw==, tarball: https://registry.npmjs.org/@syncfusion/ej2-schedule/-/ej2-schedule-28.2.7.tgz}
 
   '@syncfusion/ej2-splitbuttons@28.2.3':
     resolution: {integrity: sha512-8PWYWo+kZgV2JfPkqe6riToKO7blxNBFMo083HdbaE2z76gKkB1Eg3JNCJU2NIqlsb8eZX1eBHd6JoUbTEkgow==}
@@ -587,6 +630,9 @@ packages:
 
   '@syncfusion/ej2-treegrid@28.2.4':
     resolution: {integrity: sha512-UgNywbp+3uQEcjtXaVU85IBu0zJXLkAhSpn/1S36CAli47HLY+lnom/XxkNkxUNFHAjx3cyJxSQU8Ww6HgtmNQ==}
+
+  '@syncfusion/ej2-treegrid@28.2.6':
+    resolution: {integrity: sha512-yUng1e39ihxnkXB4O58r7PomaAjNoIzETtWzxEYbGQFOb3j0s3r3r1nogsvekFWQNiaUxgt2ZLn4IH0zgpvcCw==, tarball: https://registry.npmjs.org/@syncfusion/ej2-treegrid/-/ej2-treegrid-28.2.6.tgz}
 
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
@@ -856,7 +902,7 @@ packages:
     resolution: {integrity: sha512-AiwGJM8YcNOaobumgtng+6NHuOqC3A7MixFeDafM3X9cIUM+xUXoS5Vfgf+OihAYe20fxqNM9yPBXJzRtZ/4eA==}
 
   fsevents@2.3.3:
-    resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
+    resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==, tarball: https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
@@ -1530,9 +1576,17 @@ snapshots:
     dependencies:
       '@syncfusion/ej2-icons': 28.2.3
 
+  '@syncfusion/ej2-base@28.2.5':
+    dependencies:
+      '@syncfusion/ej2-icons': 28.2.3
+
   '@syncfusion/ej2-buttons@28.2.3':
     dependencies:
       '@syncfusion/ej2-base': 28.2.4
+
+  '@syncfusion/ej2-buttons@28.2.7':
+    dependencies:
+      '@syncfusion/ej2-base': 28.2.5
 
   '@syncfusion/ej2-calendars@28.2.3':
     dependencies:
@@ -1541,6 +1595,14 @@ snapshots:
       '@syncfusion/ej2-inputs': 28.2.3
       '@syncfusion/ej2-lists': 28.2.3
       '@syncfusion/ej2-popups': 28.2.3
+
+  '@syncfusion/ej2-calendars@28.2.7':
+    dependencies:
+      '@syncfusion/ej2-base': 28.2.5
+      '@syncfusion/ej2-buttons': 28.2.7
+      '@syncfusion/ej2-inputs': 28.2.3
+      '@syncfusion/ej2-lists': 28.2.3
+      '@syncfusion/ej2-popups': 28.2.6
 
   '@syncfusion/ej2-compression@28.2.3':
     dependencies:
@@ -1559,6 +1621,16 @@ snapshots:
       '@syncfusion/ej2-navigations': 28.2.4
       '@syncfusion/ej2-notifications': 28.2.3
       '@syncfusion/ej2-popups': 28.2.3
+
+  '@syncfusion/ej2-dropdowns@28.2.7':
+    dependencies:
+      '@syncfusion/ej2-base': 28.2.5
+      '@syncfusion/ej2-data': 28.2.3
+      '@syncfusion/ej2-inputs': 28.2.3
+      '@syncfusion/ej2-lists': 28.2.3
+      '@syncfusion/ej2-navigations': 28.2.6
+      '@syncfusion/ej2-notifications': 28.2.3
+      '@syncfusion/ej2-popups': 28.2.6
 
   '@syncfusion/ej2-excel-export@28.2.3':
     dependencies:
@@ -1580,6 +1652,19 @@ snapshots:
       '@syncfusion/ej2-popups': 28.2.3
       '@syncfusion/ej2-splitbuttons': 28.2.3
 
+  '@syncfusion/ej2-filemanager@28.2.6':
+    dependencies:
+      '@syncfusion/ej2-base': 28.2.5
+      '@syncfusion/ej2-buttons': 28.2.7
+      '@syncfusion/ej2-data': 28.2.3
+      '@syncfusion/ej2-grids': 28.2.7
+      '@syncfusion/ej2-inputs': 28.2.3
+      '@syncfusion/ej2-layouts': 28.2.5
+      '@syncfusion/ej2-lists': 28.2.3
+      '@syncfusion/ej2-navigations': 28.2.6
+      '@syncfusion/ej2-popups': 28.2.6
+      '@syncfusion/ej2-splitbuttons': 28.2.3
+
   '@syncfusion/ej2-gantt@28.2.4':
     dependencies:
       '@syncfusion/ej2-base': 28.2.4
@@ -1597,6 +1682,24 @@ snapshots:
       '@syncfusion/ej2-richtexteditor': 28.2.4
       '@syncfusion/ej2-svg-base': 28.2.3
       '@syncfusion/ej2-treegrid': 28.2.4
+
+  '@syncfusion/ej2-gantt@28.2.7':
+    dependencies:
+      '@syncfusion/ej2-base': 28.2.5
+      '@syncfusion/ej2-buttons': 28.2.7
+      '@syncfusion/ej2-calendars': 28.2.7
+      '@syncfusion/ej2-data': 28.2.3
+      '@syncfusion/ej2-dropdowns': 28.2.7
+      '@syncfusion/ej2-grids': 28.2.7
+      '@syncfusion/ej2-inputs': 28.2.3
+      '@syncfusion/ej2-layouts': 28.2.5
+      '@syncfusion/ej2-lists': 28.2.3
+      '@syncfusion/ej2-navigations': 28.2.6
+      '@syncfusion/ej2-notifications': 28.2.3
+      '@syncfusion/ej2-popups': 28.2.6
+      '@syncfusion/ej2-richtexteditor': 28.2.7
+      '@syncfusion/ej2-svg-base': 28.2.3
+      '@syncfusion/ej2-treegrid': 28.2.6
 
   '@syncfusion/ej2-grids@28.2.4':
     dependencies:
@@ -1616,6 +1719,24 @@ snapshots:
       '@syncfusion/ej2-popups': 28.2.3
       '@syncfusion/ej2-splitbuttons': 28.2.3
 
+  '@syncfusion/ej2-grids@28.2.7':
+    dependencies:
+      '@syncfusion/ej2-base': 28.2.5
+      '@syncfusion/ej2-buttons': 28.2.7
+      '@syncfusion/ej2-calendars': 28.2.7
+      '@syncfusion/ej2-compression': 28.2.3
+      '@syncfusion/ej2-data': 28.2.3
+      '@syncfusion/ej2-dropdowns': 28.2.7
+      '@syncfusion/ej2-excel-export': 28.2.3
+      '@syncfusion/ej2-file-utils': 28.2.3
+      '@syncfusion/ej2-inputs': 28.2.3
+      '@syncfusion/ej2-lists': 28.2.3
+      '@syncfusion/ej2-navigations': 28.2.6
+      '@syncfusion/ej2-notifications': 28.2.3
+      '@syncfusion/ej2-pdf-export': 28.2.3
+      '@syncfusion/ej2-popups': 28.2.6
+      '@syncfusion/ej2-splitbuttons': 28.2.3
+
   '@syncfusion/ej2-icons@28.2.3': {}
 
   '@syncfusion/ej2-inputs@28.2.3':
@@ -1628,6 +1749,10 @@ snapshots:
   '@syncfusion/ej2-layouts@28.2.4':
     dependencies:
       '@syncfusion/ej2-base': 28.2.4
+
+  '@syncfusion/ej2-layouts@28.2.5':
+    dependencies:
+      '@syncfusion/ej2-base': 28.2.5
 
   '@syncfusion/ej2-lists@28.2.3':
     dependencies:
@@ -1645,6 +1770,15 @@ snapshots:
       '@syncfusion/ej2-lists': 28.2.3
       '@syncfusion/ej2-popups': 28.2.3
 
+  '@syncfusion/ej2-navigations@28.2.6':
+    dependencies:
+      '@syncfusion/ej2-base': 28.2.5
+      '@syncfusion/ej2-buttons': 28.2.7
+      '@syncfusion/ej2-data': 28.2.3
+      '@syncfusion/ej2-inputs': 28.2.3
+      '@syncfusion/ej2-lists': 28.2.3
+      '@syncfusion/ej2-popups': 28.2.6
+
   '@syncfusion/ej2-notifications@28.2.3':
     dependencies:
       '@syncfusion/ej2-base': 28.2.4
@@ -1660,15 +1794,26 @@ snapshots:
       '@syncfusion/ej2-base': 28.2.4
       '@syncfusion/ej2-buttons': 28.2.3
 
-  '@syncfusion/ej2-react-base@28.2.3':
+  '@syncfusion/ej2-popups@28.2.6':
     dependencies:
-      '@syncfusion/ej2-base': 28.2.4
+      '@syncfusion/ej2-base': 28.2.5
+      '@syncfusion/ej2-buttons': 28.2.7
 
-  '@syncfusion/ej2-react-gantt@28.2.4':
+  '@syncfusion/ej2-react-base@28.2.7':
     dependencies:
-      '@syncfusion/ej2-base': 28.2.4
-      '@syncfusion/ej2-gantt': 28.2.4
-      '@syncfusion/ej2-react-base': 28.2.3
+      '@syncfusion/ej2-base': 28.2.5
+
+  '@syncfusion/ej2-react-gantt@28.2.7':
+    dependencies:
+      '@syncfusion/ej2-base': 28.2.5
+      '@syncfusion/ej2-gantt': 28.2.7
+      '@syncfusion/ej2-react-base': 28.2.7
+
+  '@syncfusion/ej2-react-schedule@28.2.7':
+    dependencies:
+      '@syncfusion/ej2-base': 28.2.5
+      '@syncfusion/ej2-react-base': 28.2.7
+      '@syncfusion/ej2-schedule': 28.2.7
 
   '@syncfusion/ej2-richtexteditor@28.2.4':
     dependencies:
@@ -1680,6 +1825,30 @@ snapshots:
       '@syncfusion/ej2-navigations': 28.2.4
       '@syncfusion/ej2-popups': 28.2.3
       '@syncfusion/ej2-splitbuttons': 28.2.3
+
+  '@syncfusion/ej2-richtexteditor@28.2.7':
+    dependencies:
+      '@syncfusion/ej2-base': 28.2.5
+      '@syncfusion/ej2-buttons': 28.2.7
+      '@syncfusion/ej2-dropdowns': 28.2.7
+      '@syncfusion/ej2-filemanager': 28.2.6
+      '@syncfusion/ej2-inputs': 28.2.3
+      '@syncfusion/ej2-navigations': 28.2.6
+      '@syncfusion/ej2-popups': 28.2.6
+      '@syncfusion/ej2-splitbuttons': 28.2.3
+
+  '@syncfusion/ej2-schedule@28.2.7':
+    dependencies:
+      '@syncfusion/ej2-base': 28.2.5
+      '@syncfusion/ej2-buttons': 28.2.7
+      '@syncfusion/ej2-calendars': 28.2.7
+      '@syncfusion/ej2-data': 28.2.3
+      '@syncfusion/ej2-dropdowns': 28.2.7
+      '@syncfusion/ej2-excel-export': 28.2.3
+      '@syncfusion/ej2-inputs': 28.2.3
+      '@syncfusion/ej2-lists': 28.2.3
+      '@syncfusion/ej2-navigations': 28.2.6
+      '@syncfusion/ej2-popups': 28.2.6
 
   '@syncfusion/ej2-splitbuttons@28.2.3':
     dependencies:
@@ -1696,6 +1865,13 @@ snapshots:
       '@syncfusion/ej2-data': 28.2.3
       '@syncfusion/ej2-grids': 28.2.4
       '@syncfusion/ej2-popups': 28.2.3
+
+  '@syncfusion/ej2-treegrid@28.2.6':
+    dependencies:
+      '@syncfusion/ej2-base': 28.2.5
+      '@syncfusion/ej2-data': 28.2.3
+      '@syncfusion/ej2-grids': 28.2.7
+      '@syncfusion/ej2-popups': 28.2.6
 
   '@types/babel__core@7.20.5':
     dependencies:
