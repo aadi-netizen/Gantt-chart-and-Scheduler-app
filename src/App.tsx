@@ -13,16 +13,16 @@ function App() {
 
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Syncfusion Gantt Chart and Scheduler
-        </p>
-      </header>
-      <div >
-        <button onClick={() => setShowComponent('Gantt')}>Gantt</button>
-        <button onClick={() => setShowComponent('Scheduler')}>Scheduler</button>
+    <div className="App" >
+
+
+
+      <div className='button-container' style={{width: "100vw", display: 'flex', justifyContent: 'center', gap: '10px', marginTop: '50px' }}>
+        <button style={{ background: 'tomato' }} onClick={() => setShowComponent('Gantt')}>Gantt</button>
+        <button style={{ background: 'tomato' }} onClick={() => setShowComponent('Scheduler')}>Scheduler</button>
       </div>
+
+
 
       <div>
         {showComponent === 'Gantt' && <GanttChart />}

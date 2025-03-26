@@ -7,25 +7,26 @@ function GanttChart() {
     id: 'TaskId',
     name: 'TaskName',
     startDate: 'StartDate',
-    endDate: 'EndDate',
     duration: 'Duration',
-    progress: 'Progress',
     dependency: 'Predecessor',
-    child: 'SubTasks',
+    child: 'SubTasks'
   };
 
-  const ganttData = new DataManager({
+  const dataSource = new DataManager({
     url: 'https://services.syncfusion.com/react/production/api/GanttData',
     adaptor: new WebApiAdaptor,
-    crossDomain: true,
+    crossDomain: true
   });
+  console.log("Gantt Data: ", dataSource);
   const editSettings = {
     allowTaskbarEditing: true
   };
 
   return (
-    <GanttComponent
-      dataSource={ganttData}
+    <div style={{width: '100vw', marginLeft: '5%',marginRight: '5%', textAlign: 'center' }}>
+      <h1>Gantt Chart</h1>
+      <GanttComponent
+      dataSource={dataSource}
       height="450px"
       taskFields={taskFields}
       timelineSettings={{ timelineViewMode: 'Week' }}
@@ -44,6 +45,9 @@ function GanttChart() {
       </ColumnsDirective>
       <Inject services={[Resize, Edit]} />
     </GanttComponent>
+    </div>
+
+ 
   );
 }
 
